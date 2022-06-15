@@ -1,4 +1,4 @@
-Source: yoyo-desktop
+Source: yyds
 Section: metapackages
 Priority: extra
 Maintainer: YoyoOS <support@yoyoos.com>
@@ -6,8 +6,8 @@ Build-Depends:
 Standards-Version: 4.5.0
 Homepage: https://yoyoos.com
 
-Package: yoyo-desktop
+Package: yyds
 Architecture: any
-Depends: yoyo-calculator, yoyo-core, yoyo-dock, yoyo-filemanager, yoyo-launcher, yoyo-statusbar, yoyo-kwin-plugins, yoyo-qt-plugins, yoyo-screenlocker, yoyo-wallpapers, yoyo-settings, yoyo-icons, yoyo-gtk-themes, yoyo-daemon, yoyo-updator, fishui, libyoyo, fonts-noto, fonts-noto-mono, desktop-file-utils
+Depends: yoyo-calculator, yoyo-core, yoyo-dock, yoyo-filemanager, yoyo-desktop, yoyo-launcher, yoyo-statusbar, yoyo-kwin-plugins, yoyo-qt-plugins, yoyo-screenlocker, yoyo-wallpapers, yoyo-settings, yoyo-icons, yoyo-gtk-themes, yoyo-daemon, yoyo-updator, fishui, libyoyo, fonts-noto, fonts-noto-mono, desktop-file-utils
 Recommends: yoyo-screenshot, yoyo-videoplayer, yoyo-debinstaller, yoyo-terminal, pppoe, smbclient, wireless-tools, pulseaudio-module-bluetooth
 Description: YoyoOS Meta Packages.
