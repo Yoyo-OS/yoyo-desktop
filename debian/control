@@ -9,5 +9,5 @@ Homepage: https://yoyoos.com
 Package: yyds
 Architecture: any
 Depends: yoyo-calculator, yoyo-core, yoyo-dock, yoyo-filemanager, yoyo-digitalwellbeing-daemon, yoyo-desktop, yoyo-launcher, yoyo-statusbar, yoyo-kwin-plugins, yoyo-qt-plugins, yoyo-screenlocker, yoyo-wallpapers, yoyo-settings, yoyo-icons, yoyo-gtk-themes, yoyo-daemon, yoyo-updator, fishui, libyoyo, fonts-noto, fonts-noto-mono, desktop-file-utils
-Recommends: yoyo-screenshot, yoyo-videoplayer, yoyo-debinstaller, yoyo-terminal, pppoe, smbclient, wireless-tools, pulseaudio-module-bluetooth
+Recommends: yoyo-screenshot, yoyo-videoplayer, yoyo-debinstaller, yoyo-terminal, yoyo-texteditor, pppoe, smbclient, wireless-tools, pulseaudio-module-bluetooth
 Description: YoyoOS Meta Packages.
