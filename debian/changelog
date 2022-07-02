@@ -1,3 +1,9 @@
+yyds (0.9-1) UNRELEASED; urgency=high
+
+  * Include themes and appmotor
+
+ -- weilinfox <support@yoyoos.com>  Sat, 02 Jul 2022 16:00:10 +0800
+
 yyds (0.9) UNRELEASED; urgency=medium
 
   * Init
