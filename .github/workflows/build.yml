@@ -22,8 +22,9 @@ jobs:
       run: mk-build-deps -i -t "apt-get --yes" -r
     - name: Build Package
       run: dpkg-buildpackage -b -uc -us -j$(nproc)
-    - name: Install build dependencies
+    - run: cp ../*.deb ./
+    - name: publish artifact
       uses: actions/upload-artifact@v2
       with:
-       path: ${{ github.workspace }}/..
+       path: ${{ github.workspace }}/
        name: ${{ github.run_number }}
