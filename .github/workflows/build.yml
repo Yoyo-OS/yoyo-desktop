@@ -22,9 +22,10 @@ jobs:
       run: mk-build-deps -i -t "apt-get --yes" -r
     - name: Build Package
       run: dpkg-buildpackage -b -uc -us -j$(nproc)
-    - run: cp ../*.deb ./
+    - run: mkdir deb
+    - run: cp ../*.deb ./deb
     - name: publish artifact
       uses: actions/upload-artifact@v2
       with:
-       path: ${{ github.workspace }}/
+       path: ${{ github.workspace }}/deb
        name: ${{ github.run_number }}
